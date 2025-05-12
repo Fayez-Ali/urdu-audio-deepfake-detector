@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+venv/
+
+# Audio files or temp uploads
+*.wav
+*.mp3
+uploads/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
