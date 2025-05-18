@@ -13,7 +13,8 @@ CORS(app)  # Enable CORS for all routes
 
 # Load the saved model (update this path to match your local system)
 # MODEL_PATH = "model/cnn_melspecs_model.h5"
-MODEL_PATH = "model/audio_deepfake_model.h5"
+# MODEL_PATH = "model/audio_deepfake_model.h5"
+MODEL_PATH = "model/new_cnn_mfcc_model.h5"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Function to preprocess audio file and extract MFCC features
